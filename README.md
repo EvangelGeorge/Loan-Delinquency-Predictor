@@ -1,24 +1,8 @@
-# sample_repo
-## Title
-### Title
-#### Title
-##### Title
-###### Title
+# Loan Delinquency Predictor
+- Data Preprocessing: The loan dataset was subjected to standardization and normalization, enhancing feature comparability and preventing dominance by larger values. Although data cleaning and preparation were omitted, these scaling techniques contribute to improved machine learning model performance by ensuring consistent scales and distances among features. Consider complementing this preprocessing with data cleaning to create a more comprehensive pipeline.
+- Feature Selection: To build an effective model, I carefully selected relevant features from the dataset that contribute to predicting loan default. This step aimed to improve the model's accuracy and interpretability.
+- Model Training: I employed the LogisticRegression algorithm from the sklearn.linear_model module to train the predictive model. This algorithm is well-suited for binary classification tasks, such as predicting loan default.
+- Train-Test Split: Using the train_test_split function from sklearn.model_selection, I divided the dataset into training and testing sets. This separation allowed me to evaluate the model's performance on unseen data.
+- Model Evaluation: To assess the model's predictive capability, I utilized various evaluation metrics. This included calculating the Receiver Operating Characteristic (ROC) curve, ROC Area Under the Curve (AUC), confusion matrix, and generating a comprehensive classification report.
+- Visualization: For enhanced interpretability, I used the ConfusionMatrixDisplay function from sklearn.metrics to visualize the confusion matrix. Visualizations like ROC curves and confusion matrices helped in understanding the model's true positive and false positive rates.
 
-[click this link](https://punchng.com/)
-
-
-📜
-🔥
-
-# Numbering 
-
-1. Number 1
-2. Number 2
-3. Number 3
-
-# Unordered
-
-- First Bullet
-- Second Bullet
-- Third Bullet
